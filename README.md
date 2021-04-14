@@ -7,7 +7,6 @@ Testing AR visualization for Safari on iOS devices. Click 👉[here](https://mur
 - A 3D Modeling Software that can export to GLTF 2.0 (Blender works)
 - [XCode 11](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
 - [USDZ Tools](https://developer.apple.com/download/more/?=USDPython)
-- 
 
 # Current Workflow
 `Note: In progress. Subject to change`
