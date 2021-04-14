@@ -29,6 +29,8 @@ Testing AR visualization for Safari on iOS devices. Click 👉[here](https://mur
   - do this by entering `usdzconvert <modelFileName>.gltf <newfilename>.usdz`
 - When that's finished, you should see your new .usdz file in that directory in Finder
 
+`Note: You may also use Apple's Reality Converter Beta tool, which is essentially a GUI for the USDZ command line tools` 
+
 ## 3. Customize Interactions in Reality Composer
 - Open Reality Composer
   - This can be done in the iPad app from the App Store, or on a mac via the XCode menu (`XCode>Open Developer Tool>Reality Composer`)
@@ -36,4 +38,4 @@ Testing AR visualization for Safari on iOS devices. Click 👉[here](https://mur
 - Drag & Drop or Add (+ symbol) and import the converted .usdz file to view it in the scene
 - To start an animation by tapping (or however you would like it to trigger), select the Behaviours icon (asterisks/right arrow icon)
 
-## 4. 
+`To be continued`
