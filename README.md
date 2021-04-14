@@ -1,5 +1,5 @@
 # WebAR
-Testing AR visualization for Safari on iOS devices. To view the Web AR test page in Safari on an iOS device, click 👉[here](https://mura94.github.io/WebAR/)
+Testing AR visualization for Safari on iOS devices. Click 👉[here](https://mura94.github.io/WebAR/) to view the Web AR test page in Safari on an iOS device.
 
 
 
