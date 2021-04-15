@@ -28,7 +28,9 @@ Testing AR visualization for Safari on iOS devices. Click 👉[here](https://mur
   - do this by entering `usdzconvert <modelFileName>.gltf <newfilename>.usdz`
 - When that's finished, you should see your new .usdz file in that directory in Finder
 
-`Note: You may also use Apple's Reality Converter Beta tool, which is essentially a GUI for the USDZ command line tools` 
+`Note: You may also use Apple's Reality Converter Beta tool, which is essentially a GUI for the USDZ command line tools. `
+
+There also seems to be a set of command line tools for Windows by Google that can run similar commands [here](https://github.com/google/usd_from_gltf) (have not tested this yet)
 
 ## 3. Customize Interactions in Reality Composer
 - Open Reality Composer
