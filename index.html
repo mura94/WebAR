@@ -6,13 +6,13 @@
 <body>
 	<h1>Welcome!</h1>
 	<p>Here we are testing Apple's QuickLook AR capabilites!</p>
-	<a id="ar-link" href="SkinTest.reality#callToAction=Browse%20API&checkoutTitle=Kids%20Slide&checkoutSubtitle=Playground%20in%20your%20backyard&price=$145&allowsContentScaling=0" rel="ar">
+	<a id="ar-link" href="SkinTest.reality#callToAction=Browse%20API&checkoutTitle=V-Loc%20Wound%20Closure&checkoutSubtitle=Visit%20the%20V-Loc%20product%20page!&allowsContentScaling=0" rel="ar">
 		<img src="assets/QR_WebARTestPage.png" width="200">
 	</a>
 	<script>
 	document.getElementById("ar-link").addEventListener("message", function (event) {   
     if (event.data == "_apple_ar_quicklook_button_tapped") {
-        window.location.assign("https://developer.apple.com/documentation/arkit/previewing_a_model_with_ar_quick_look");
+        window.location.assign("https://www.medtronic.com/covidien/en-us/products/wound-closure/barbed-sutures.html");
     } }, false);
 	</script>
 
