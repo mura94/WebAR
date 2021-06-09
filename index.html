@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<script src="ar-link.js" type="text/javascript"></script>
 <html><head><meta name="GCD" content="YTk3ODQ3ZWZhN2I4NzZmMzBkNTEwYjJl825c3147959a47938204cdd798ddf96e"/>
 	<title>AR Library</title>
 </head>
@@ -10,6 +9,12 @@
 	<a id="ar-link" href="SkinTest.reality#callToAction=Browse%20API&checkoutTitle=Kids%20Slide&checkoutSubtitle=Playground%20in%20your%20backyard&price=$145&allowsContentScaling=0" rel="ar">
 		<img src="assets/QR_WebARTestPage.png" width="200">
 	</a>
+	<script>
+	document.getElementById("ar-link").addEventListener("message", function (event) {   
+    if (event.data == "_apple_ar_quicklook_button_tapped") {
+        window.location.assign("https://developer.apple.com/documentation/arkit/previewing_a_model_with_ar_quick_look");
+    } }, false);
+	</script>
 
 
 </body></html>
